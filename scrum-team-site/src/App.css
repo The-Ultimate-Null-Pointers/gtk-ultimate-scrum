@@ -31,11 +31,39 @@
 .navigation a:hover {
   background-color: rgb(99, 99, 99);
 }
-
-
 .content {
   margin-left: 250px;        /* Adjust the margin to account for the sidebar */
   padding: 40px;
 
   width: calc(100% - 250px); /* Adjust the width to account for the sidebar */
 }
+
+.team-photo-object {
+  width: 100%;
+  margin: 0 auto;
+}
+.team-photo-object img {
+  width: 100%;
+  height: auto;
+}
+
+.home-card {
+  width: 900px;
+  max-width: 80%;
+  margin: 0px auto;
+  padding: 2%;
+
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  text-align: center;
+}
+.home-card h2 {
+  background-color: aqua;
+}
+.team-photo-container {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+} 
