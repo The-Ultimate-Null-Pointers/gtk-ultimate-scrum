@@ -1,18 +1,24 @@
-import TeamPhoto from "../components/TeamPhoto";
+import TeamPhoto from "../components/TeamPhoto"
 
 
 function Home() {
   return (
-    <div className="home-card">
-      <h2>Home</h2>
-      <div className="team-photo-container">
-        <TeamPhoto />
-      </div>
-      
+    <div className="home-page">
+      <div className="home-card">
+        <h1>The ULTIMATE Null Pointers</h1>
+        <div className="team-photo-container">
+          <TeamPhoto />
+        </div>
+        
 
-      <p>Welcome to our Scrum team's website.</p>
+        <p>Greetings! We are the greatest Scrum team to grace Lewis University! We made this website in React just so that we could show off our greatness! Above, you can see our our <i>100% unedited*</i> team photo with Proffessor Pouge himself!</p>
+      </div>
+
+      <div className="disclaimer">
+        {"* if(funny) { labGrade += 10 }"}
+      </div>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home

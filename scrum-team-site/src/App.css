@@ -1,3 +1,7 @@
+/*
+  AI DISCLAIMER: ChatGPT helped with some of the CSS because memorizing CSS is hard and a little pointless... changes were made to suit our specific needs.
+*/
+
 .app {
   min-height: 100vh;
   display: flex;
@@ -48,10 +52,11 @@
 }
 
 .home-card {
-  width: 900px;
+  width: 750px;
   max-width: 80%;
-  margin: 0px auto;
-  padding: 2%;
+  min-width: 200px;
+  margin: 0 auto;
+  padding: 1px 2%;
 
   background-color: white;
   border-radius: 12px;
@@ -59,11 +64,79 @@
 
   text-align: center;
 }
-.home-card h2 {
-  background-color: aqua;
-}
 .team-photo-container {
   width: 700px;
   max-width: 100%;
   margin: 0 auto;
 } 
+
+.disclaimer {
+  position: fixed;
+  bottom: 10px;
+  right: 12px;
+
+  font-size: 11px;
+  color: #666;
+  text-align: right;
+
+  max-width: 250px;
+  z-index: 1000;
+}
+
+.projects-page header {
+    width: 50%;
+    min-width: 250px;
+    box-sizing: border-box;
+    padding: 24px;
+    margin: 0 auto 32px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 0 0 12px 12px;
+}
+.projects-page h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 350px));
+    justify-content: center;
+    gap: 24px;
+    padding: 24px;
+}
+.project-card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.project-card h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.project-card a {
+  color: #0756a8;
+  text-decoration: none;
+  font-weight: 500;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
+.project-card hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 4px 0;
+}
+.project-card p {
+  margin: 0;
+  line-height: 1.6;
+  color: #444;
+}

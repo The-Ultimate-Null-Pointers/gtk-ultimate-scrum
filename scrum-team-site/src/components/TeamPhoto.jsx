@@ -8,13 +8,13 @@ import imageMapResize from "image-map-resizer";
 */
 
 function TeamPhoto() {
-    const containerRef = useRef(null);
-    const mapId = useId();
+    const containerRef = useRef(null)
+    const mapId = useId()
 
     useEffect(() => {
         const container = containerRef.current;
-        const image = container.querySelector("img");
-        const map = container.querySelector("map");
+        const image = container.querySelector("img")
+        const map = container.querySelector("map")
 
         let initialized = false
 
@@ -31,7 +31,7 @@ function TeamPhoto() {
         initializeImageMap()
 
         return () => {image.removeEventListener("load", initializeImageMap)}
-    }, []);
+    }, [])
 
     return (
         <div className="team-photo-object" ref={containerRef}>
@@ -40,10 +40,11 @@ function TeamPhoto() {
 
             <map name={mapId}>
                 <area shape="circle" coords="750,250,80" href="https://github.com/EricJPogue" target="_blank" alt="Eric Pouge" />
+                <area shape="circle" coords="460,270,80" href="https://ashy-river-0af8a3410.3.azurestaticapps.net/" target="_blank" alt="Michael Mihailov (the G.O.A.T.)" />
                 {/* ADD YOUR IMAGE MAPPINGS HERE GUYS!!! */}
             </map>
         </div>
-    );
+    )
 }
 
-export default TeamPhoto;
+export default TeamPhoto
