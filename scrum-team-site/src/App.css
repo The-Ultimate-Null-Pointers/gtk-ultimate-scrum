@@ -1,5 +1,6 @@
 /*
-  AI DISCLAIMER: ChatGPT helped with some of the CSS because memorizing CSS is hard and a little pointless... changes were made to suit our specific needs.
+  AI DISCLAIMER: ChatGPT helped with some of the CSS because memorizing CSS is hard and a little pointless... 
+  changes were made to suit our specific needs.
 */
 
 .app {
@@ -139,4 +140,65 @@
   margin: 0;
   line-height: 1.6;
   color: #444;
+}
+
+/* Member page styling */
+.members-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+}
+.members-list h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.member-card {
+  width: 70%;
+  min-width: min(320px, 100%);
+  max-width: 1000px;
+  box-sizing: border-box;
+  padding: 24px 32px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.member-card h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  text-align: center
+}
+.member-card p {
+  margin: 0;
+  line-height: 1.2;
+  color: #444;
+  text-align: center;
+}
+
+.member-card a {
+  color: #0756a8;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+}
+.member-card a:hover {
+  text-decoration: underline;
+}
+
+.members-list header {
+    width: 90%;
+    min-width: 250px;
+    box-sizing: border-box;
+    padding: 24px;
+    margin: 0 auto 32px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 0 0 12px 12px;
 }
