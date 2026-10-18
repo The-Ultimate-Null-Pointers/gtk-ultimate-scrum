@@ -39,9 +39,15 @@ function TeamPhoto() {
             <img src="/TUNP-team-photo.jpg" useMap={`#${mapId}`} alt="Team Photo" />
 
             <map name={mapId}>
+                {/* Professor Pogue */}
                 <area shape="circle" coords="750,250,80" href="https://github.com/EricJPogue" target="_blank" alt="Eric Pouge" />
-                <area shape="circle" coords="460,270,80" href="https://ashy-river-0af8a3410.3.azurestaticapps.net/" target="_blank" alt="Michael Mihailov (the G.O.A.T.)" />
+                {/* Michael */}
+                <area shape="circle" coords="460,270,80" href="https://michael-mihailov.github.io/CPSC44000-get-to-know-me/" target="_blank" alt="Michael Mihailov (the G.O.A.T.)" />
+                {/* Beth */}
+                <area shape="circle" coords="509,1125,110" href="https://bethfeddes.github.io/getting-to-know/" target="_blank" alt="Bethany Feddes (the ACTUAL G.O.A.T.)" />
+               
                 {/* ADD YOUR IMAGE MAPPINGS HERE GUYS!!! */}
+
             </map>
         </div>
     )
