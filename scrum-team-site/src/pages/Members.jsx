@@ -14,9 +14,9 @@ function Members() {
 
       {/* Add your info here guys */}
       <div className="member-card">
-        <h2>Name</h2>
-        <p>Short bio</p>
-        <a href="#" target="_blank">Get to Know Name, put your link here</a>
+        <h2>Jacob Petrosky</h2>
+        <p>Sophmore, Computer Science major</p>
+        <a href="https://jacobpetrosky.github.io/getting-to-know-me/" target="_blank">Get to Know Jacob!</a>
       </div>
 
       <div className="member-card">

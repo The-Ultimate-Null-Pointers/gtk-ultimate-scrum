@@ -45,6 +45,8 @@ function TeamPhoto() {
                 <area shape="circle" coords="460,270,80" href="https://michael-mihailov.github.io/CPSC44000-get-to-know-me/" target="_blank" alt="Michael Mihailov (the G.O.A.T.)" />
                 {/* Beth */}
                 <area shape="circle" coords="509,1125,110" href="https://bethfeddes.github.io/getting-to-know/" target="_blank" alt="Bethany Feddes (the ACTUAL G.O.A.T.)" />
+                {/* Jacob */}
+                <area shape="circle" coords="150,200,90" href="https://jacobpetrosky.github.io/getting-to-know-me/" target="_blank" alt="Jacob Petrosky" />
                
                 {/* ADD YOUR IMAGE MAPPINGS HERE GUYS!!! */}
 
