@@ -20,9 +20,9 @@ function Members() {
       </div>
 
       <div className="member-card">
-        <h2>Name</h2>
-        <p>Short bio</p>
-        <a href="#" target="_blank">Get to Know Name, put your link here</a>
+        <h2>Troy Naill</h2>
+        <p>Junior, Computer science major</p>
+        <a href="https://troyanaill.github.io/getting-to-know-each-other/" target="_blank">Get to Know Troy!</a>
       </div>
 
       <div className="member-card">
