@@ -48,7 +48,7 @@ function TeamPhoto() {
                 {/* Jacob */}
                 <area shape="circle" coords="150,200,90" href="https://jacobpetrosky.github.io/getting-to-know-me/" target="_blank" alt="Jacob Petrosky" />
                 {/* Troy */ }]
-                <area shape="circle" coords="850,500,90" href="https://troyanaill.github.io/getting-to-know-each-other/" target="_blank" alt="Troy Naill" />
+                <area shape="circle" coords="1000,350,90" href="https://troyanaill.github.io/getting-to-know-each-other/" target="_blank" alt="Troy Naill" />
                
                 {/* ADD YOUR IMAGE MAPPINGS HERE GUYS!!! */}
 
