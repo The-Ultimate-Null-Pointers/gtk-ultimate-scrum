@@ -8,6 +8,12 @@ function Projects() {
       </header>
       <div className="projects-grid">
         <ProjectCard
+          title="Syllabye"
+          repoURL="https://github.com/Luis-Perz/syllabye-firebase"
+          hostingURL="https://syllabye-4a90d.web.app/"
+          description="Syllabus storage, made easy"
+        />
+        <ProjectCard
           title="Health Calculator Server"
           repoURL="https://github.com/The-Ultimate-Null-Pointers/health-risk-calculator-unp-node"
           hostingURL="https://health-risk-calculator-unp-node-f5hygtdhemhxc6ef.centralus-01.azurewebsites.net/"
